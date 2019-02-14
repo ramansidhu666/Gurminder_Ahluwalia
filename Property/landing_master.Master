@@ -1,0 +1,102 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="landing_master.master.cs" Inherits="Property.landing_master" %>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122171603-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-122171603-1');
+</script>
+    <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "RealEstateAgent",
+  "name": "Team Home 4ME",
+  "image": "http://ahome4me.ca/images/logo.png",
+  
+  "url": "http://ahome4me.ca/",
+  "telephone": "416-500-9331",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "30 Top Flight Drive Suit 12",
+    "addressLocality": "Mississauga",
+    "addressRegion": "ON",
+    "postalCode": "L5S0A8",
+    "addressCountry": "CA"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 43.65016019999999,
+    "longitude": -79.71097759999998
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "sameAs": "https://www.facebook.com/ahome4me.ca/"
+}
+</script>
+   <link id="favicon" runat="server" rel="shortcut icon" type="image/x-icon" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="css/main.css" />
+    <style type="text/css">
+    .AutoExtender {
+        background: none repeat scroll 0 0 hsl(0, 0%, 96%);
+        border: 1px solid #ccc;
+        font-family: Verdana,Arial Black;
+        font-size: 12px;
+        font-weight: normal;
+        height: auto;
+        line-height: 20px;
+        margin-top: -1px;
+        position: absolute;
+        width: 265px !important;
+        z-index: 600001;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .AutoExtenderList {
+        cursor: pointer;
+        color: Black;
+        width: 257px;
+        padding-left: 7px;
+        list-style-type:none;
+    }
+
+    .AutoExtenderHighlight {
+        color: White;
+        background-color: #006699;
+        cursor: pointer;
+        width: 257px;
+        padding-left: 7px;
+    }
+</style>
+     <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
