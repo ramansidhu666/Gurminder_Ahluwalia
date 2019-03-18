@@ -249,6 +249,10 @@
     <Content Include="Admin\uploadfiles\ltst_logo-1.png" />
     <Content Include="Admin\Virtual.aspx" />
     <Content Include="BankSale.aspx" />
+    <Content Include="BestHomeSellerinGTAWebBlog.aspx" />
+    <Content Include="commercial_units_gta.aspx" />
+    <Content Include="commercial_units_ontario.aspx" />
+    <Content Include="top_real_estate_agent_gta.aspx" />
     <Content Include="BestHomeSellerinGTA.aspx" />
     <Content Include="Blogs.aspx" />
     <Content Include="Change_Password.aspx" />
@@ -1804,6 +1808,34 @@
     </Compile>
     <Compile Include="BanksandFinancialInstitutions.aspx.designer.cs">
       <DependentUpon>BanksandFinancialInstitutions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BestHomeSellerinGTAWebBlog.aspx.cs">
+      <DependentUpon>BestHomeSellerinGTAWebBlog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BestHomeSellerinGTAWebBlog.aspx.designer.cs">
+      <DependentUpon>BestHomeSellerinGTAWebBlog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="commercial_units_gta.aspx.cs">
+      <DependentUpon>commercial_units_gta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="commercial_units_gta.aspx.designer.cs">
+      <DependentUpon>commercial_units_gta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="commercial_units_ontario.aspx.cs">
+      <DependentUpon>commercial_units_ontario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="commercial_units_ontario.aspx.designer.cs">
+      <DependentUpon>commercial_units_ontario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="top_real_estate_agent_gta.aspx.cs">
+      <DependentUpon>top_real_estate_agent_gta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="top_real_estate_agent_gta.aspx.designer.cs">
+      <DependentUpon>top_real_estate_agent_gta.aspx</DependentUpon>
     </Compile>
     <Compile Include="BestHomeSellerinGTA.aspx.cs">
       <DependentUpon>BestHomeSellerinGTA.aspx</DependentUpon>
